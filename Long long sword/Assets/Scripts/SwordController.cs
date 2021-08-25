@@ -60,7 +60,7 @@ public class SwordController : MonoBehaviour
             //rb.transform.eulerAngles = rb.transform.eulerAngles + Vector3.forward * direction;
             //rb.transform.Rotate(new Vector3(0, 0, direction * 20));
 
-            target.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+        //    target.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
             rb.freezeRotation = false;
             rb.MoveRotation(rb.rotation + direction * 10);
             
