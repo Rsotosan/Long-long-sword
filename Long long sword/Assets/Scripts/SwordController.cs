@@ -12,6 +12,9 @@ public class SwordController : MonoBehaviour
 
     public Rigidbody2D rb;
 
+    private SpriteRenderer sprite; 
+
+
     Vector2 vectorRotation;
 
     Vector2 movement;
@@ -20,6 +23,9 @@ public class SwordController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        sprite = GetComponent<SpriteRenderer>();
+
     }
 
     // Update is called once per frame
@@ -48,6 +54,8 @@ public class SwordController : MonoBehaviour
     void FixedUpdate()
     {
         applyRotacion();
+
+        swordVisualController();
     }
 
 
@@ -75,5 +83,26 @@ public class SwordController : MonoBehaviour
 
         //transform.RotateAround(target.transform.position, vectorRotation, 20 * Time.deltaTime);
     }
+
+
+
+    //This method changes the sword layer according to its Euler angle
+    public void swordVisualController()
+    {
+
+        
+        if (rb.transform.eulerAngles.z > 45 && rb.transform.eulerAngles.z < 160 )
+        {
+
+            sprite.sortingOrder = -2;
+            sprite.sortingLayerName = "Default";
+        }
+        else sprite.sortingOrder = 0;
+        sprite.sortingLayerName = "Default";
+
+    }
+
+
+
 
 }
