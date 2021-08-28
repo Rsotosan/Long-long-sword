@@ -10,7 +10,7 @@ public class NPCController : MonoBehaviour
     public Rigidbody2D rb;
     public GameObject[] triggers;
 
-    private Queue<GameObject> triggersQueue;
+    private Queue<GameObject> triggersQueue = new Queue<GameObject>();
 
     public float waterGuySpeedFactor; 
 
@@ -30,6 +30,9 @@ public class NPCController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (triggersQueue.Count == 0) {
+            triggersQueue = new Queue<GameObject>(triggers);
+        }
         Vector2 mov = ((Vector2)triggersQueue.Peek().transform.position - rb.position).normalized;
         //rb.transform.Translate(mov * waterGuySpeedFactor * Time.deltaTime);
         rb.MovePosition(rb.position + mov * waterGuySpeedFactor);
@@ -47,10 +50,10 @@ public class NPCController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Sword"))
         {
 
-            Debug.Log("colision with player");
+            Debug.Log("colision with sword");
             gameObject.SetActive(false);
         }
     }

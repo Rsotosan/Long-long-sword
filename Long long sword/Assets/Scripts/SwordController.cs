@@ -53,8 +53,12 @@ public class SwordController : MonoBehaviour
     void FixedUpdate()
     {
         applyRotacion();
-
         swordVisualController();
+        if (!GetComponent<BoxCollider2D>().IsTouchingLayers(-1))
+        {
+            rotationFactor = defaultRotationFactor;
+            rb.mass = 2;
+        }
     }
 
 
@@ -100,7 +104,7 @@ public class SwordController : MonoBehaviour
         sprite.sortingLayerName = "Default";
 
     }
-
+    
     void OnCollisionEnter2D(Collision2D collision)
     {
         rb.mass = target.GetComponent<Rigidbody2D>().mass;
@@ -119,6 +123,6 @@ public class SwordController : MonoBehaviour
         rb.mass = target.GetComponent<Rigidbody2D>().mass;
 
     }
-
+    
 
 }
