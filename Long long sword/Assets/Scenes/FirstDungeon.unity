@@ -3466,7 +3466,7 @@ MonoBehaviour:
   - {fileID: 203529133}
   - {fileID: 1326536274}
   - {fileID: 203529133}
-  waterGuySpeedFactor: 10
+  waterGuySpeedFactor: 0.3
 --- !u!61 &1936984244
 BoxCollider2D:
   m_ObjectHideFlags: 0

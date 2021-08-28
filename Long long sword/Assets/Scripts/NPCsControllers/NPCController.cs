@@ -25,13 +25,16 @@ public class NPCController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 mov = ((Vector2)triggersQueue.Peek().transform.position - rb.position).normalized;
-        Debug.Log(mov);
-        //rb.transform.Translate(mov * waterGuySpeedFactor * Time.deltaTime);
-        rb.MovePosition(rb.position + mov * waterGuySpeedFactor * Time.deltaTime);
-        //rb.velocity = mov * waterGuySpeedFactor;
+        
     }
 
+    private void FixedUpdate()
+    {
+        Vector2 mov = ((Vector2)triggersQueue.Peek().transform.position - rb.position).normalized;
+        //rb.transform.Translate(mov * waterGuySpeedFactor * Time.deltaTime);
+        rb.MovePosition(rb.position + mov * waterGuySpeedFactor);
+        //rb.velocity = mov * waterGuySpeedFactor;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.Equals(triggersQueue.Peek()))
