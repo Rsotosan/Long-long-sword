@@ -402,6 +402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 11
   rb: {fileID: 266914215}
+  sword: {fileID: 0}
 --- !u!212 &266914214
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1391,7 +1392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 266914211}
-  rotationFactor: 1
+  defaultRotationFactor: 1
   rb: {fileID: 1198758253}
 --- !u!212 &1198758252
 SpriteRenderer:

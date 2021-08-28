@@ -7,25 +7,24 @@ public class SwordController : MonoBehaviour
 
     public GameObject target;
 
-    public float rotationFactor = 4f;
+    public float defaultRotationFactor = 4f;
     private float direction = 0;
 
     public Rigidbody2D rb;
 
     private SpriteRenderer sprite; 
 
-
     Vector2 vectorRotation;
-
     Vector2 movement;
+
+    private float rotationFactor;
 
     private Vector3 zAxis = new Vector3(0, 0, 1);
     // Start is called before the first frame update
     void Start()
     {
-
+        rotationFactor = defaultRotationFactor;
         sprite = GetComponent<SpriteRenderer>();
-
     }
 
     // Update is called once per frame
@@ -102,7 +101,24 @@ public class SwordController : MonoBehaviour
 
     }
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        rb.mass = target.GetComponent<Rigidbody2D>().mass;
+        rotationFactor = 0.01f;
+    }
 
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        rb.mass = 2;
+        rotationFactor = defaultRotationFactor;
+    }
+
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        
+        rb.mass = target.GetComponent<Rigidbody2D>().mass;
+
+    }
 
 
 }
