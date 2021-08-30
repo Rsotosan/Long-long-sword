@@ -1,7 +1,19 @@
 fileFormatVersion: 2
-guid: ef9f196b612b6274bba92102f4f3f047
+guid: b80069cdae706ef4984851af9933d3ac
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2110856237515020882
+    second: greeen_0
+  - first:
+      213: -1709527770477415103
+    second: greeen_1
+  - first:
+      213: -4118298174247286623
+    second: greeen_2
+  - first:
+      213: 2064747438455522383
+    second: greeen_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +53,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -89,7 +101,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: greeen_0
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 931
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a100170944b4d10800000000000000
+      internalID: 2110856237515020882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeen_1
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 930
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145370bdc898648e0800000000000000
+      internalID: -1709527770477415103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeen_2
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 930
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8c9d451add8d6c0800000000000000
+      internalID: -4118298174247286623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greeen_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 930
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f440a041bd477ac10800000000000000
+      internalID: 2064747438455522383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
