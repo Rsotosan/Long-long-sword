@@ -8,6 +8,8 @@ TagManager:
   - waterRightCollider
   - waterLeftCollider
   - Sword
+  - ratFood
+  - rat
   layers:
   - Default
   - TransparentFX
