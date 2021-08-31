@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FirstDungeon.unity
     guid: a208b0ceabbe7574d8ceaabf9affee41
+  - enabled: 1
+    path: Assets/Scenes/ForestPuzzle1.unity
+    guid: 3191f9f60ad2d8248bedb2bfa2f9ec0e
   m_configObjects: {}
