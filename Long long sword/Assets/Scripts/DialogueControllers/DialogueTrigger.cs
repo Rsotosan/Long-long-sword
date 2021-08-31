@@ -11,10 +11,13 @@ public class DialogueTrigger : MonoBehaviour
     public GameObject dialogueBox;
     public Canvas canvas;
 
+    public GameObject zKey;
+    private GameObject zPrefab;
+
     // Start is called before the first frame update
     void Start()
     {
-   
+        zPrefab = dialogueBox.GetComponent<DialogueController>().zPrefab;
     }
 
     // Update is called once per frame
@@ -22,11 +25,8 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (playerInRange && Input.GetKeyDown("z"))
         {
-
             dialogueBox.SetActive(true);
         }
-
-
     }
 
 
@@ -36,8 +36,7 @@ public class DialogueTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = true;
-            Debug.Log("player here");
-
+            zKey = Instantiate(zPrefab, this.transform.position + new Vector3(1, 1, 0), Quaternion.identity);
         }
 
 
@@ -48,11 +47,11 @@ public class DialogueTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
-
-            Debug.Log("player left");
+            
+            Destroy(zKey);
 
         }
-
+        
 
     }
 }

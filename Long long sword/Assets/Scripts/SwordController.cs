@@ -123,6 +123,13 @@ public class SwordController : MonoBehaviour
         rb.mass = target.GetComponent<Rigidbody2D>().mass;
 
     }
-    
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "bush")
+        {
+            Destroy(collision.gameObject);
+        }
+    }
 
 }
