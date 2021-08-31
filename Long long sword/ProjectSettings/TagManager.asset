@@ -8,8 +8,7 @@ TagManager:
   - waterRightCollider
   - waterLeftCollider
   - Sword
-  - ratFood
-  - rat
+  - bush
   layers:
   - Default
   - TransparentFX
@@ -44,6 +43,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Grass
+    uniqueID: 2213926643
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3705060619
+    locked: 0
+  - name: TREES
+    uniqueID: 4128908753
     locked: 0

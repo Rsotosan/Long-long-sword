@@ -1,0 +1,1452 @@
+fileFormatVersion: 2
+guid: 08536acdae017c84da3fe9c480b00f59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5804300405174842447
+    second: SpritesNacho_0
+  - first:
+      213: 3382875248914783090
+    second: SpritesNacho_1
+  - first:
+      213: 3929664332589914285
+    second: SpritesNacho_2
+  - first:
+      213: 251172168702703668
+    second: SpritesNacho_3
+  - first:
+      213: 8617602677105459591
+    second: SpritesNacho_4
+  - first:
+      213: 9005523958527981530
+    second: SpritesNacho_5
+  - first:
+      213: -5469216675687074559
+    second: SpritesNacho_6
+  - first:
+      213: -856876816697077996
+    second: SpritesNacho_7
+  - first:
+      213: 708926902343435330
+    second: SpritesNacho_8
+  - first:
+      213: -8982088560587891374
+    second: SpritesNacho_9
+  - first:
+      213: -4199980473107833577
+    second: SpritesNacho_10
+  - first:
+      213: -1655129734418190369
+    second: SpritesNacho_11
+  - first:
+      213: -6532978729044253128
+    second: SpritesNacho_12
+  - first:
+      213: 5323893767045273562
+    second: SpritesNacho_13
+  - first:
+      213: 8050020640473645937
+    second: SpritesNacho_14
+  - first:
+      213: 4269771379082824816
+    second: SpritesNacho_15
+  - first:
+      213: 1889175442471563355
+    second: SpritesNacho_16
+  - first:
+      213: -1870344747429821599
+    second: SpritesNacho_17
+  - first:
+      213: 4256111506359805304
+    second: SpritesNacho_18
+  - first:
+      213: 5356324045995627883
+    second: SpritesNacho_19
+  - first:
+      213: 4954617134908974684
+    second: SpritesNacho_20
+  - first:
+      213: -6071140985326425052
+    second: SpritesNacho_21
+  - first:
+      213: 6731935070328967569
+    second: SpritesNacho_22
+  - first:
+      213: -5838127925632440288
+    second: SpritesNacho_23
+  - first:
+      213: -7424180403548398991
+    second: SpritesNacho_24
+  - first:
+      213: -4617905525178332546
+    second: SpritesNacho_25
+  - first:
+      213: -2852781035222916751
+    second: SpritesNacho_26
+  - first:
+      213: -2933716664003093572
+    second: SpritesNacho_27
+  - first:
+      213: -233978244471172588
+    second: SpritesNacho_28
+  - first:
+      213: 1781067304649974213
+    second: SpritesNacho_29
+  - first:
+      213: -1014273710299103489
+    second: SpritesNacho_30
+  - first:
+      213: 2980182112959454659
+    second: SpritesNacho_31
+  - first:
+      213: -8395342349429020501
+    second: SpritesNacho_32
+  - first:
+      213: -1837146590170181353
+    second: SpritesNacho_33
+  - first:
+      213: 3285404890655550648
+    second: SpritesNacho_34
+  - first:
+      213: -4262230820024096437
+    second: SpritesNacho_35
+  - first:
+      213: 7266679634794170383
+    second: SpritesNacho_36
+  - first:
+      213: -5586290424231042807
+    second: SpritesNacho_37
+  - first:
+      213: -3630273136415586357
+    second: SpritesNacho_38
+  - first:
+      213: -4049949960924862140
+    second: SpritesNacho_39
+  - first:
+      213: -8068982103463819332
+    second: SpritesNacho_40
+  - first:
+      213: 9166729926485193028
+    second: SpritesNacho_41
+  - first:
+      213: -677839715173427355
+    second: SpritesNacho_42
+  - first:
+      213: 362900352836022730
+    second: SpritesNacho_43
+  - first:
+      213: 3690260031155083045
+    second: SpritesNacho_44
+  - first:
+      213: -5057634847241442322
+    second: SpritesNacho_45
+  - first:
+      213: 3367622772434079955
+    second: SpritesNacho_46
+  - first:
+      213: -8878690306671442180
+    second: SpritesNacho_47
+  - first:
+      213: 1687854884960654942
+    second: SpritesNacho_48
+  - first:
+      213: 1628408122175128641
+    second: SpritesNacho_49
+  - first:
+      213: 5884951633660362383
+    second: SpritesNacho_50
+  - first:
+      213: -4733249156224700643
+    second: SpritesNacho_51
+  - first:
+      213: -1439760455361241700
+    second: SpritesNacho_52
+  - first:
+      213: -2933523731782661990
+    second: SpritesNacho_53
+  - first:
+      213: 2171922869189857628
+    second: SpritesNacho_54
+  - first:
+      213: -5824936709684130719
+    second: SpritesNacho_55
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpritesNacho_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1022
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbc5e3b88bf27fa0800000000000000
+      internalID: -5804300405174842447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1002
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bd60b9d1362fe20800000000000000
+      internalID: 3382875248914783090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 991
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da85b86e3e8f88630800000000000000
+      internalID: 3929664332589914285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1004
+        width: 110
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4383df4b1c75c7300800000000000000
+      internalID: 251172168702703668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 974
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78183501affd79770800000000000000
+      internalID: 8617602677105459591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_5
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 995
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad77454b35c0afc70800000000000000
+      internalID: 9005523958527981530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 958
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105770e19607914b0800000000000000
+      internalID: -5469216675687074559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 930
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fc08c3313cb14f0800000000000000
+      internalID: -856876816697077996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 905
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24406e9f24d96d900800000000000000
+      internalID: 708926902343435330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_9
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 917
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d1f051b06395380800000000000000
+      internalID: -8982088560587891374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 923
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d94dc130ca6b5c0800000000000000
+      internalID: -4199980473107833577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_11
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 914
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf21da964cc709e0800000000000000
+      internalID: -1655129734418190369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 918
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836622a85723655a0800000000000000
+      internalID: -6532978729044253128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 871
+        width: 7
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad756a68c2542e940800000000000000
+      internalID: 5323893767045273562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 900
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1738ef52f1b67bf60800000000000000
+      internalID: 8050020640473645937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 906
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c8c527276414b30800000000000000
+      internalID: 4269771379082824816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_16
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 888
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50b8ee3e03b73a10800000000000000
+      internalID: 1889175442471563355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_17
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 894
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1638de99c533b06e0800000000000000
+      internalID: -1870344747429821599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_18
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 892
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875670d7ddeb01b30800000000000000
+      internalID: 4256111506359805304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_19
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 822
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65d37f375c755a40800000000000000
+      internalID: 5356324045995627883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_20
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 874
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c562054980652c440800000000000000
+      internalID: 4954617134908974684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_21
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 874
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cad4ca079febba0800000000000000
+      internalID: -6071140985326425052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_22
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 856
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191d3f57743ac6d50800000000000000
+      internalID: 6731935070328967569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_23
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 862
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028e367559dcafea0800000000000000
+      internalID: -5838127925632440288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_24
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 860
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ad41a024308f890800000000000000
+      internalID: -7424180403548398991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_25
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 835
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a8e6d3467e9efb0800000000000000
+      internalID: -4617905525178332546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_26
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 819
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171219d53c2e868d0800000000000000
+      internalID: -2852781035222916751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_27
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 822
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb9372dc385947d0800000000000000
+      internalID: -2933716664003093572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_28
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 832
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412502db60eb0ccf0800000000000000
+      internalID: -233978244471172588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_29
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 812
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c169bee64f97b810800000000000000
+      internalID: 1781067304649974213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_30
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 812
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffeba903f639ce1f0800000000000000
+      internalID: -1014273710299103489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_31
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 819
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cddbe097dbbb5920800000000000000
+      internalID: 2980182112959454659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_32
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 758
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba86d761d90cd7b80800000000000000
+      internalID: -8395342349429020501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_33
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 630
+        width: 224
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711169ce8e42186e0800000000000000
+      internalID: -1837146590170181353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_34
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 559
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bceada575a189d20800000000000000
+      internalID: 3285404890655550648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_35
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 570
+        width: 80
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49edb5c6a389d4c0800000000000000
+      internalID: -4262230820024096437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_36
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 534
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08c87890ae68d460800000000000000
+      internalID: 7266679634794170383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_37
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 534
+        width: 92
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901ea83e4728972b0800000000000000
+      internalID: -5586290424231042807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_38
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 542
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc74e4201ddae9dc0800000000000000
+      internalID: -3630273136415586357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_39
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 549
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44967f4d7ffabc7c0800000000000000
+      internalID: -4049949960924862140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_40
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 474
+        width: 112
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb70e083787350090800000000000000
+      internalID: -8068982103463819332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_41
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 490
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441b71cfc44c63f70800000000000000
+      internalID: 9166729926485193028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_42
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 450
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5679f62de54d796f0800000000000000
+      internalID: -677839715173427355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_43
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 445
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1b7abb2f7490500800000000000000
+      internalID: 362900352836022730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_44
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 444
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52712dd42ff663330800000000000000
+      internalID: 3690260031155083045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_45
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 447
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb698627ebafc9b0800000000000000
+      internalID: -5057634847241442322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_46
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 378
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d01370b1133cbe20800000000000000
+      internalID: 3367622772434079955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_47
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 426
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf60528153e88c480800000000000000
+      internalID: -8878690306671442180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_48
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 429
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56dc7243177c6710800000000000000
+      internalID: 1687854884960654942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_49
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 413
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1440c973f84499610800000000000000
+      internalID: 1628408122175128641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_50
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 395
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e3eacb45c8ba150800000000000000
+      internalID: 5884951633660362383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_51
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 379
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f2fc168fe105eb0800000000000000
+      internalID: -4733249156224700643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_52
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 382
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dd9887e71f40ce0800000000000000
+      internalID: -1439760455361241700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_53
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 394
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a988aea55b70a47d0800000000000000
+      internalID: -2933523731782661990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_54
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 351
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51db999758342e10800000000000000
+      internalID: 2171922869189857628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpritesNacho_55
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 347
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c0524aceaa92fa0800000000000000
+      internalID: -5824936709684130719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

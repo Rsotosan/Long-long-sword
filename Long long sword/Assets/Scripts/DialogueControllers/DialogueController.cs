@@ -4,6 +4,8 @@ using UnityEngine;
 
 
 using TMPro;
+using System;
+
 public class DialogueController : MonoBehaviour
 {
 
@@ -15,12 +17,19 @@ public class DialogueController : MonoBehaviour
 
     private int index;
 
+    public GameObject zPrefab;
+
+    PlayerController player;
+    SwordController sword;
 
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+        sword = GameObject.FindGameObjectWithTag("Sword").GetComponent<SwordController>();
+        player.enabled = false;
+        sword.enabled = false;
         textComponent.text = string.Empty;
-
         StartDialogue();
     }
 
@@ -30,20 +39,16 @@ public class DialogueController : MonoBehaviour
 
         if (Input.GetKeyDown("z"))
         {
-            Debug.Log("z pulsada");
+                if (textComponent.text == lines[index])
+                {
+                    NextLine();
+                }
 
-            if(textComponent.text == lines[index])
-            {
-
-                NextLine();
-
-            }
-          
-            else
-            {
-                StopAllCoroutines();
-                textComponent.text = lines[index];
-            }
+                else
+                {
+                    StopAllCoroutines();
+                    textComponent.text = lines[index];
+                }
         }
     }
 
@@ -75,6 +80,21 @@ public class DialogueController : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
+            index = -1;
+            player.enabled = true;
+            sword.enabled = true;
+        }
+    }
+
+    private void OnEnable()
+    {
+        if (index == -1)
+        {
+            player.enabled = false;
+            sword.enabled = false;
+            textComponent.text = string.Empty;
+            index = 0;
+            StartCoroutine(TypeLine());
         }
     }
 }
