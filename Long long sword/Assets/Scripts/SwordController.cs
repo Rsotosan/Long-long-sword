@@ -98,10 +98,10 @@ public class SwordController : MonoBehaviour
         {
 
             sprite.sortingOrder = -2;
-            sprite.sortingLayerName = "Default";
+            sprite.sortingLayerName = "Player";
         }
         else sprite.sortingOrder = 0;
-        sprite.sortingLayerName = "Default";
+        sprite.sortingLayerName = "Player";
 
     }
     
