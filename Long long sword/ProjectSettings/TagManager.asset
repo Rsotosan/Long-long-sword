@@ -8,6 +8,9 @@ TagManager:
   - waterRightCollider
   - waterLeftCollider
   - Sword
+  - ratFood
+  - rat
+  - bottle
   - bush
   layers:
   - Default
@@ -43,15 +46,22 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+
+  - name: Background
+    uniqueID: 235135605
+
   - name: Grass
     uniqueID: 2213926643
+
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Player
-    uniqueID: 3705060619
+
+    uniqueID: 3756037695
     locked: 0
   - name: TREES
-    uniqueID: 4128908753
+    uniqueID: 915937527
+
     locked: 0
