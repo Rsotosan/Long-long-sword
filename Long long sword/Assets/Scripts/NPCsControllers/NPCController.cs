@@ -23,10 +23,10 @@ public class NPCController : MonoBehaviour
     private Queue<GameObject> triggersQueue = new Queue<GameObject>();
 
     public float waterGuySpeedFactor;
+
     public Vector2 mov;
 
 
-    public GameObject text;
     // Start is called before the first frame update
     void Start()
     {
@@ -60,7 +60,6 @@ public class NPCController : MonoBehaviour
             triggersQueue = new Queue<GameObject>(triggers);
         }
          mov = ((Vector2)triggersQueue.Peek().transform.position - rb.position).normalized;
-
         //rb.transform.Translate(mov * waterGuySpeedFactor * Time.deltaTime);
         rb.MovePosition(rb.position + mov * waterGuySpeedFactor);
             //rb.velocity = mov * waterGuySpeedFactor;
@@ -184,8 +183,8 @@ public class NPCController : MonoBehaviour
             Time.timeScale = 1f;
             varGameObject.GetComponent<PlayerController>().enabled = true;
         }
-        else
-        {
+        
+        if (!checkpoint_forest){
 
         
         alive = false;
