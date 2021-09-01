@@ -40,7 +40,7 @@ public class ChangingSceneController : MonoBehaviour
         blackFade.CrossFadeAlpha(1, 2, false);
         yield return new WaitForSeconds(2.5f);
         
-            SceneManager.LoadScene("FirstDungeon");
+            SceneManager.LoadScene("Inicio");
 
             Debug.Log("Cambio de escena");
         

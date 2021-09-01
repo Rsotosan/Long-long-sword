@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ForestPuzzle1.unity
     guid: 3191f9f60ad2d8248bedb2bfa2f9ec0e
+  - enabled: 1
+    path: Assets/Scenes/Inicio2.unity
+    guid: 1e7af4619de58df4c9c9a7b0f0969a32
+  - enabled: 1
+    path: Assets/Scenes/Village.unity
+    guid: f84231605119124429304fe2d125eca2
+  - enabled: 1
+    path: Assets/Scenes/Inicio.unity
+    guid: 375377042073ac74a91ddf05e003f23a
   m_configObjects: {}
