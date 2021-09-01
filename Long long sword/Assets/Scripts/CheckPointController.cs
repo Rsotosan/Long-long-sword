@@ -25,7 +25,6 @@ public class CheckPointController : MonoBehaviour
     {
         varGameObject.GetComponent<CheckPointValidator>().checkpoint_forest = true;
 
-    
 
 
     }

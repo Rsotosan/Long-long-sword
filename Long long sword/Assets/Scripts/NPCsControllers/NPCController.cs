@@ -160,17 +160,23 @@ public class NPCController : MonoBehaviour
         if (GameObject.FindWithTag("checkpoint").GetComponent<CheckPointValidator>().checkpoint_forest)
         {
 
+            alive = false;
+
+
             Time.timeScale = 0;
             varGameObject.GetComponent<PlayerController>().enabled = false;
 
+            gameObject.GetComponent<AudioSource>().Play();
 
-           
             yield return new WaitForSecondsRealtime(0.3f);
-            
-            //CAMBIA LA ESCENA
+
+            Time.timeScale = 1f;
+
+            SceneManager.LoadScene("ForestPuzzle2");
         }
         
-        if (!checkpoint_forest){
+        if (!GameObject.FindWithTag("checkpoint").GetComponent<CheckPointValidator>().checkpoint_forest)
+        {
 
         
         alive = false;

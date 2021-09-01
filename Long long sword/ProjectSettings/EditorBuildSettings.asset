@@ -6,20 +6,32 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MainMenu.unity
+    guid: deb4ccfe9e6f0104e9bce36c945ec9a1
   - enabled: 1
     path: Assets/Scenes/RatScene.unity
     guid: c3ef363e398b67d458bbe04a27085d46
   - enabled: 1
-    path: Assets/Scenes/FirstDungeon.unity
-    guid: a208b0ceabbe7574d8ceaabf9affee41
-  - enabled: 1
     path: Assets/Scenes/ForestPuzzle1.unity
     guid: 3191f9f60ad2d8248bedb2bfa2f9ec0e
   - enabled: 1
+    path: Assets/Scenes/ForestPuzzle2.unity
+    guid: 99c1bb5471659724ab0d340785519172
+  - enabled: 1
+    path: Assets/Scenes/Inicio2.unity
+    guid: 1e7af4619de58df4c9c9a7b0f0969a32
+  - enabled: 1
+    path: Assets/Scenes/Village.unity
+    guid: f84231605119124429304fe2d125eca2
+  - enabled: 1
+    path: Assets/Scenes/Inicio.unity
+    guid: 375377042073ac74a91ddf05e003f23a
+  - enabled: 1
     path: Assets/Scenes/FinalScene.unity
     guid: ecae565fc6aaa5f43b7fa386e86d552c
+  - enabled: 1
+    path: Assets/Scenes/ForesPuzzle2.unity
+    guid: 4b5b182c85272f948a97a093e5adf34e
   - enabled: 1
     path: Assets/Scenes/FinalGameVillage.unity
     guid: 9d3f8dddf1ac0e846a4d54805d5e41aa

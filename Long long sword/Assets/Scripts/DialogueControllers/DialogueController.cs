@@ -26,9 +26,9 @@ public class DialogueController : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
-        sword = GameObject.FindGameObjectWithTag("Sword").GetComponent<SwordController>();
+       sword = GameObject.FindGameObjectWithTag("Sword").GetComponent<SwordController>();
         player.enabled = false;
-        sword.enabled = false;
+       sword.enabled = false;
         textComponent.text = string.Empty;
         StartDialogue();
     }
@@ -39,16 +39,16 @@ public class DialogueController : MonoBehaviour
 
         if (Input.GetKeyDown("z"))
         {
-                if (textComponent.text == lines[index])
-                {
-                    NextLine();
-                }
+            if (textComponent.text == lines[index])
+            {
+                NextLine();
+            }
 
-                else
-                {
-                    StopAllCoroutines();
-                    textComponent.text = lines[index];
-                }
+            else
+            {
+                StopAllCoroutines();
+                textComponent.text = lines[index];
+            }
         }
     }
 
@@ -71,7 +71,7 @@ public class DialogueController : MonoBehaviour
 
     void NextLine()
     {
-    if (index < lines.Length-1)
+        if (index < lines.Length - 1)
         {
             index++;
             textComponent.text = string.Empty;
@@ -82,7 +82,7 @@ public class DialogueController : MonoBehaviour
             gameObject.SetActive(false);
             index = -1;
             player.enabled = true;
-            sword.enabled = true;
+           sword.enabled = true;
         }
     }
 
@@ -91,7 +91,7 @@ public class DialogueController : MonoBehaviour
         if (index == -1)
         {
             player.enabled = false;
-            sword.enabled = false;
+          sword.enabled = false;
             textComponent.text = string.Empty;
             index = 0;
             StartCoroutine(TypeLine());
