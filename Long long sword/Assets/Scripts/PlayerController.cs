@@ -25,10 +25,6 @@ public class PlayerController : MonoBehaviour
        movement.x = Input.GetAxisRaw("Horizontal");
        movement.y = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKeyDown("space"))
-        {
-            interactiveSword();
-        }
       animationController();
     }
 
