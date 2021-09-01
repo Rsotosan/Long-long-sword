@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ForestPuzzle1.unity
     guid: 3191f9f60ad2d8248bedb2bfa2f9ec0e
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: ecae565fc6aaa5f43b7fa386e86d552c
+  - enabled: 1
+    path: Assets/Scenes/FinalGameVillage.unity
+    guid: 9d3f8dddf1ac0e846a4d54805d5e41aa
+  - enabled: 1
+    path: Assets/Scenes/FinalGameCastle.unity
+    guid: 5fcc137f12029424baaa2af532731156
   m_configObjects: {}
