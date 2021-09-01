@@ -2,16 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheckPointController : MonoBehaviour
+public class TriggerExplosion : MonoBehaviour
 {
-
-    GameObject varGameObject;
-
-
+    public FinalScene script;
     // Start is called before the first frame update
     void Start()
     {
-        varGameObject = GameObject.FindWithTag("checkpoint");
+        
     }
 
     // Update is called once per frame
@@ -20,13 +17,11 @@ public class CheckPointController : MonoBehaviour
         
     }
 
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        varGameObject.GetComponent<CheckPointValidator>().checkpoint_forest = true;
+        script.endOfScene();
+        script.velocity = 0;
+    }
 
     
-
-
-    }
 }

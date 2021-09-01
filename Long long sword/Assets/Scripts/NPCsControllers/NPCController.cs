@@ -79,19 +79,9 @@ public class NPCController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Sword"))
+        if (collision.gameObject.CompareTag("Sword") || collision.gameObject.CompareTag("Player"))
         {
             StartCoroutine(dying());
-
-        }
-        if (collision.gameObject.CompareTag("Player"))
-        {
-
-            StartCoroutine(dying());
-
-
-
-
 
         }
     }
@@ -167,8 +157,7 @@ public class NPCController : MonoBehaviour
 
 
 
-
-        if (checkpoint_forest)
+        if (GameObject.FindWithTag("checkpoint").GetComponent<CheckPointValidator>().checkpoint_forest)
         {
 
             Debug.Log("checkpointforest activo");
@@ -176,8 +165,8 @@ public class NPCController : MonoBehaviour
             Time.timeScale = 0;
             varGameObject.GetComponent<PlayerController>().enabled = false;
 
-         
 
+           
             yield return new WaitForSecondsRealtime(0.3f);
 
            /* varGameObject.GetComponent<Transform>().Translate(17f, -5, 0.01f);
@@ -198,18 +187,6 @@ public class NPCController : MonoBehaviour
 
         Time.timeScale = 0;
         varGameObject.GetComponent<PlayerController>().enabled = false;
-
-        /*
-        rb.velocity = Vector2.zero;
-
-        rb.GetComponent<Animator>().SetBool("osoUp", false);
-        rb.GetComponent<Animator>().SetBool("osoDown", false);
-        rb.GetComponent<Animator>().SetBool("osoLeft", false);
-        rb.GetComponent<Animator>().SetBool("osoRight", false);
-
-       
-
-        */
 
         gameObject.GetComponent<AudioSource>().Play();
 
