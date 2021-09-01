@@ -46151,12 +46151,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
       propertyPath: lines.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
       propertyPath: lines.Array.data[0]
       value: "Tenemos el rey m\xE1s preparado de todo -Typical medieval town name-,
         seguro que el sabr\xEDa usar esa espada perfectamente."
+      objectReference: {fileID: 0}
+    - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: "\xBFEl Castillo? Al SURESTE, pasando el Bosque de los Animales Deportistas. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
+      propertyPath: lines.Array.data[2]
+      value: Suerte en tu viaje, muchacho.
       objectReference: {fileID: 0}
     - target: {fileID: 304672091420905411, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
       propertyPath: m_Pivot.x
@@ -48854,6 +48862,10 @@ PrefabInstance:
       value: DialogueBox (1)
       objectReference: {fileID: 0}
     - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
+      propertyPath: lines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
       propertyPath: lines.Array.data[0]
       value: "Esta dichosa plaga de ratas va a terminar destrozando el pueblo. Cualquier
         d\xEDa una de esas ratas mordera a alg\xFAn ni\xF1o."
@@ -48861,6 +48873,10 @@ PrefabInstance:
     - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
       propertyPath: lines.Array.data[1]
       value: "Bonita espada amigo, \xBFLa usar\xE1s como rascador de espalda?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
+      propertyPath: lines.Array.data[2]
+      value: "\xBFEl castillo? Al SURESTE."
       objectReference: {fileID: 0}
     - target: {fileID: 304672091420905411, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
       propertyPath: m_Pivot.x
@@ -77997,11 +78013,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
       propertyPath: lines.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
       propertyPath: lines.Array.data[0]
-      value: Camino al bosque de los animales deportistas
+      value: 'Camino al bosque de los animales deportistas. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: "Direcci\xF3n: El Castillo"
       objectReference: {fileID: 0}
     - target: {fileID: 304672091420905411, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
       propertyPath: m_Pivot.x

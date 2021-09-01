@@ -171,6 +171,8 @@ public class NPCController : MonoBehaviour
         if (checkpoint_forest)
         {
 
+            Debug.Log("checkpointforest activo");
+
             Time.timeScale = 0;
             varGameObject.GetComponent<PlayerController>().enabled = false;
 
@@ -178,10 +180,14 @@ public class NPCController : MonoBehaviour
 
             yield return new WaitForSecondsRealtime(0.3f);
 
-            varGameObject.GetComponent<Transform>().Translate(17f, -5, 0.01f);
+           /* varGameObject.GetComponent<Transform>().Translate(17f, -5, 0.01f);
 
             Time.timeScale = 1f;
-            varGameObject.GetComponent<PlayerController>().enabled = true;
+            varGameObject.GetComponent<PlayerController>().enabled = true; */
+
+
+
+            SceneManager.LoadScene("ForestPuzzle2");
         }
         
         if (!checkpoint_forest){

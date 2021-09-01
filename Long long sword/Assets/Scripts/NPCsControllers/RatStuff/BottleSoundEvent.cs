@@ -12,10 +12,16 @@ public class BottleSoundEvent : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
+        if (collision.CompareTag("bottle"))
+        {
+
         
         Debug.Log("botella ha caído");
 
         StartCoroutine(playSounds());
+        }
+
 
     }
     IEnumerator playSounds()
