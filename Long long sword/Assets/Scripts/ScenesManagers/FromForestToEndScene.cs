@@ -21,7 +21,7 @@ public class FromForestToEndScene : MonoBehaviour
         {
 
         
-        SceneManager.LoadScene("EndScene");
+        SceneManager.LoadScene("FinalScene");
         }
     }
 }
