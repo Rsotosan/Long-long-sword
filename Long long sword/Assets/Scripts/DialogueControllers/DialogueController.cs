@@ -15,7 +15,7 @@ public class DialogueController : MonoBehaviour
 
     public float textSpeed;
 
-    private int index;
+    public int index;
 
     public GameObject zPrefab;
 

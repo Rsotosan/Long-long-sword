@@ -11,7 +11,7 @@ public class CheckPointController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        varGameObject = GameObject.FindWithTag("waterguy1");
+        varGameObject = GameObject.FindWithTag("checkpoint");
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class CheckPointController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        varGameObject.GetComponent<NPCController>().checkpoint_forest = true;
+        varGameObject.GetComponent<CheckPointValidator>().checkpoint_forest = true;
 
     
 
