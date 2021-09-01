@@ -12,6 +12,7 @@ TagManager:
   - rat
   - bottle
   - bush
+  - checkpoint
   layers:
   - Default
   - TransparentFX
@@ -46,22 +47,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-
-  - name: Background
-    uniqueID: 235135605
-
-  - name: Grass
-    uniqueID: 2213926643
-
+  - name: Ground
+    uniqueID: 609396477
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Player
-
-    uniqueID: 3756037695
+    uniqueID: 2456123501
     locked: 0
-  - name: TREES
-    uniqueID: 915937527
-
+  - name: Sky
+    uniqueID: 1202812263
     locked: 0
