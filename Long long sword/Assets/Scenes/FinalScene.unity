@@ -648,19 +648,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
       propertyPath: lines.Array.data[5]
-      value: "Hacia la izquierda est\xE1 el pueblo donde nac\xED, alla donde viven
-        todos mis amigos y conocidos, donde seguramente ahora este durmiendo mi perro
-        Tobi."
+      value: "Hacia la izquierda est\xE1 el pueblo donde nac\xED, all\xE1 donde viven
+        todos mis amigos y conocidos, donde seguramente ahora est\xE9 durmiendo mi
+        perro Tobi."
       objectReference: {fileID: 0}
     - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
       propertyPath: lines.Array.data[6]
-      value: Hacia la derecha esta el castillo del Rey Adolfo. El joven Rey que nos
-        salvo del asalto de los salvajes, con un futuro prometedor y la capacidad
-        de devolver la paz a estas tierras.
+      value: "Hacia la derecha est\xE1 el castillo del Rey Adolfo. El joven Rey que
+        nos salv\xF3 del asalto de los salvajes, con un futuro prometedor y la capacidad
+        de devolver la paz a estas tierras."
       objectReference: {fileID: 0}
     - target: {fileID: 304672091420905410, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
       propertyPath: lines.Array.data[7]
-      value: "\xBFCual es la decisi\xF3n correcta? No puedo decidirme por mi mismo...."
+      value: "\xBFCu\xE1l es la decisi\xF3n correcta? No puedo decidirme por mi mismo...."
       objectReference: {fileID: 0}
     - target: {fileID: 304672091420905411, guid: 82ffede9fd1531943b77aa29dec2fad3, type: 3}
       propertyPath: m_Pivot.x
